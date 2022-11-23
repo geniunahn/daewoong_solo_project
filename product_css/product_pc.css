@@ -1,0 +1,149 @@
+/* 미디어쿼리 스타일입니다. */
+
+.width_1520 {
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+.product_main_bn {
+  height: 500px;
+  background-image: url(../product_images/product_main_bn.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_main_bn_text {
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.product_sub_menu_box {
+  margin: 25px 0 155px;
+  display: flex;
+  align-items: center;
+}
+
+.product_sub_menu_box p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.product_sub_menu_box p:last-child {
+  color: #023586;
+}
+
+.product_title_text h3 {
+  font-size: 35px;
+  font-weight: 400;
+  border-top: 3px solid #a2c233;
+  display: inline-block;
+  margin-bottom: 160px;
+}
+
+.product_search_upper_box {
+  width: 80%;
+  margin: 0 auto;
+  /* outline: 1px solid #000; */
+  display: flex;
+  align-items: center;
+}
+
+.product_search_upper_box input {
+  width: 100%;
+  height: 35px;
+  border-style: none;
+  border-bottom: 1px solid #023586;
+  padding: 15px;
+}
+
+.product_search_upper_box input:focus {
+  outline: none;
+}
+
+.product_search_upper_box input::placeholder {
+  color: #023586;
+  opacity: 0.4;
+}
+
+.product_search_under_box {
+  width: 81.5%;
+  margin: 15px auto 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_search_under_box a {
+  flex: 1;
+  height: 42px;
+  border: 1px solid #023586;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  color: #023586;
+  font-size: 15px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+.product_search_under_box a:hover {
+  background-color: #023586;
+  color: #fff;
+}
+
+.products {
+  background-color: #f7f7f7;
+  padding: 150px 0;
+  margin-bottom: 150px;
+}
+
+.products_line {
+  display: flex;
+  gap: 2.63157%;
+}
+
+.products_line img {
+  width: 100%;
+}
+
+.products_line_upper {
+  margin-bottom: 150px;
+}
+
+.products_text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #023586;
+  margin-top: 35px;
+}
+
+.products_text h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 18px;
+}
+
+.product_num_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_num_box svg,
+.product_num_box p {
+  margin: 0 15px;
+}
+
+.product_num_box p {
+  font-size: 14px;
+}
+
+.product_num_box_first {
+  color: #023586;
+  font-weight: 700;
+}
