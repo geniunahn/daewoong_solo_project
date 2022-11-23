@@ -1,6 +1,6 @@
 # 개인 프로젝트
 
-GitHub Pages : https://geniunahn.github.io/DW_main/
+GitHub Pages : https://geniunahn.github.io/daewoong_solo_project/
 
 GitHub url
 - 안정원 : https://github.com/geniunahn/daewoong_solo_project
