@@ -1,0 +1,8 @@
+/* 미디어쿼리 스타일입니다. */
+
+@media only screen and (max-width: 767px) {
+  .width_mobile {
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
