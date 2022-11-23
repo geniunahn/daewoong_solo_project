@@ -1,305 +1,140 @@
-/* sub_main_ banner */
-.sub_2 .sub_main_banner {
-  width: 100%;
-  height: 320px;
-  background-color: #ccc;
+/* 미디어쿼리 스타일입니다. */
+
+.width_mobile {
+  padding: 0 20px;
+  margin: 0 auto;
 }
-.sub_main_banner .container {
-  width: 100%;
-  height: 100%;
-  background-image: url(../research_images/resaerch_main_banner.jpg);
-  background-repeat: no-repeat;
+
+.research_main_bn {
+  height: 300px;
+  background-image: url(../research_images/research_main_bn.jpg);
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
-.sub_main_banner .container h1 {
-  color: white;
+
+.research_main_bn_text {
   font-size: 40px;
-}
-
-/* sub_menu */
-.sub_2 .sub_menu {
-  margin-top: 20px;
-  max-width: 1520px;
-  height: 20px;
-  display: fixed;
-  left: 0px;
-  top: 520px;
-  padding: 0 20px;
-  display: none;
-}
-.sub_2 .sub_menu > p {
-  font-size: 14px;
-  color: #000;
-  display: inline-block;
-}
-
-.sub_2 .sub_menu > p:last-child {
-  font-size: 14px;
-  color: #023586;
-  display: inline-block;
-}
-
-/* sub_title */
-.sub_2 .sub_title {
-  width: 100%;
-  height: 400px;
-  margin-top: 75px;
-  margin-bottom: 50px;
-  padding: 0 20px;
-}
-.sub_2 .sub_title .container {
-  max-width: 1920px;
-  height: 100%;
-  margin-top: 50px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-.sub_2 .sub_title .container .text {
-  max-width: 1520px;
-  position: relative;
-}
-.sub_2 .sub_title .container .text .mark {
-  width: 80px;
-  height: 3px;
-  background-color: #a2c233;
-  position: absolute;
-  left: 0;
-}
-.sub_2 .sub_title h1 {
-  font-size: 26px;
-  font-weight: 500;
-}
-
-.sub_2 .sub_title p {
-  font-size: 15px;
-  font-weight: 400;
-  padding-top: 10px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  margin-top: 25px;
-}
-.sub_2 .sub_title .pc_img {
-  display: none;
-}
-.sub_2 .sub_title .mobile_img {
-  width: 100%;
-  height: 300px;
-}
-
-.mark_bg {
-  width: 100%;
-  height: 300px;
-  background-image: url(../research_images/mobile_sub2_2.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-/* 연구소 소개 */
-#center {
-  width: 100%;
-  background-color: #f7f7f7;
-  padding: 50px 20px;
-}
-#center .container {
-  max-width: 1520px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-#center .container .text {
-  width: 100%;
-  position: relative;
-  margin-bottom: 30px;
-}
-#center .container .mark {
-  width: 120px;
-  height: 3px;
-  background-color: #a2c233;
-  position: absolute;
-}
-#center .container h1 {
-  font-size: 26px;
-  font-weight: 500;
-  margin-top: 10px;
-}
-#center .container .pc_img {
-  display: none;
-}
-
-#center .container .mobile_img {
-  width: 100%;
-}
-
-/* 제품 개발 */
-.sub_2 #pm {
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-#pm .container {
-  max-width: 1520px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-#pm .container .text {
-  position: relative;
-  margin-bottom: 50px;
-  padding: 0 20px;
-}
-
-#pm .container h1 {
-  font-size: 26px;
-  font-weight: 500;
-  margin: 0 auto;
-  margin-top: 50px;
-  border-top: 3px solid #a2c233;
-  display: inline-block;
-}
-#pm .container > ul {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0px auto 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px;
-}
-#pm .container ul > li {
-  width: 100%;
-  margin-bottom: 60px;
-}
-
-.pm_img_1 img,
-.pm_img_2 img,
-.pm_img_3 img {
-  width: 100%;
-}
-
-#pm .container ul li h2 {
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 auto;
-  margin-top: 15px;
-}
-#pm .container ul li p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.8em;
-  margin: 0 auto;
-  margin-top: 15px;
-}
-
-/* 기술 특허 */
-#tech {
-  margin-top: 0px;
-  margin-bottom: 50px;
-  width: 100%;
-  height: 320px;
-  padding: 0 20px;
-}
-#tech .container {
-  max-width: 1520px;
-  height: 100%;
-  position: relative;
-}
-#tech .container .techBanner {
-  width: 100%;
-  height: 100%;
-  background-image: url(../research_images/tech_background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#tech .container .mobile_ver {
-  color: white;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.mobile_ver {
-  font-weight: 400;
-  font-size: 16px;
-  padding: 0 30px;
-}
-
-#tech .container .pc_ver {
-  display: none;
-}
-#tech .container button {
-  width: 160px;
-  height: 50px;
-  background: none;
-  border: 1.5px solid #fff;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-weight: 700;
   color: #fff;
-  font-size: 15px;
-  transition: 0.5s;
 }
 
-#tech .container button:hover {
-  background: #fff;
-  color: #000;
+.research_sub_menu_box {
+  display: none;
 }
 
-/* 특허증 */
-#tech .container > #paper {
-  width: 100%;
-  height: 500px;
+.research_title_text h1 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 75px 0 25px;
+  position: relative;
+}
+
+.research_title_text h1::after {
+  content: "";
+  width: 67px;
+  height: 2px;
+  background-color: #a2c233;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: none;
 }
-#paper .close {
-  position: relative;
-  height: 60px;
+
+.research_title_text h2 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 50px;
 }
-#paper .close button {
-  width: 100px;
-  height: 50px;
-  background: none;
-  border: 1.5px solid #fff;
-  margin-left: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  position: absolute;
-  right: 40px;
+
+.research_sub_bn_1_box {
+  background-image: url(../research_images/research_sub_bn_1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 240px;
+  margin-bottom: 50px;
 }
-#paper .images {
+
+.research_intro {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.research_intro_title h3 {
+  font-size: 26px;
+  font-weight: 500;
+  border-top: 2px solid #a2c233;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.research_intro_img img {
   width: 100%;
-  height: 400px;
+}
+
+.research_info_title h3 {
+  font-size: 26px;
+  font-weight: 500;
+  border-top: 2px solid #a2c233;
+  display: inline-block;
+  margin-bottom: 88px;
+}
+
+.research_info_img img {
+  width: 100%;
+}
+
+.research_info_text h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.research_info_text p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 15px 0 50px;
+}
+
+.research_sub_bn_2_box {
+  background-image: url(../research_images/research_sub_bn_2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 320px;
+  margin-top: 80px;
+}
+
+.research_sub_bn_2_text {
+  height: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-#paper .images img {
-  outline: 1px solid black;
-  width: 250px;
-  height: 350px;
-  margin-top: 30px;
-  margin-left: 60px;
-  float: left;
+.research_sub_bn_2_text h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #fff;
 }
 
-.direc {
-  display: none;
+.research_sub_bn_2_text a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px 60px;
+  margin-top: 36px;
+  transition: 0.5s;
+}
+
+.research_sub_bn_2_text a:hover {
+  color: #000;
+  background-color: #fff;
 }
