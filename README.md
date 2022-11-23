@@ -3,7 +3,7 @@
 GitHub Pages : https://geniunahn.github.io/DW_main/
 
 GitHub url
-- 안정원 : https://github.com/geniunahn/DW_main
+- 안정원 : https://github.com/geniunahn/daewoong_solo_project
 
 - 원래는 팀 프로젝트로 시작했으나 시안 디자인부터 코딩 구현까지 거의 대부분을 본인이 맡게 되어 (약 80%) 팀 프로젝트 결과물과 개인 프로젝트 결과물 두 가지를 만듬.
 - 개인 프로젝트로 만든 결과물은 디자인 시안부터 구현까지 모든 부분을 혼자서 만듬.
